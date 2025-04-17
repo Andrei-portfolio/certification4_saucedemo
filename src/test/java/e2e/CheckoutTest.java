@@ -43,6 +43,7 @@ public class CheckoutTest {
     //private static WebDriverWait wait;
     @BeforeAll
     public static void setUp() {
+        System.setProperty("webdriver.chrome.driver", "drivers\\yandexdriver.exe");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(4));

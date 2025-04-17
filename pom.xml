@@ -12,12 +12,12 @@
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <allure.version>2.25.0</allure.version>
+        <allure.version>2.33.0</allure.version>
         <aspectj.version>1.9.21</aspectj.version>
 
     </properties>
 
-    <!-- Add allure-bom to dependency management to ensure correct versions of all the dependencies are used -->
+    <!-- Add allure-bom to dependency man agement to ensure correct versions of all the dependencies are used -->
     <dependencyManagement>
         <dependencies>
             <dependency>
