@@ -28,6 +28,7 @@ public class SaucedemoLoginTest {
     //    private static WebDriverWait wait;
     @BeforeAll
     public static void setUp() {
+        System.setProperty("webdriver.chrome.driver", "drivers\\yandexdriver.exe");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         loginPage = new LoginPage(driver);
