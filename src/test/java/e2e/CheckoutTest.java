@@ -40,7 +40,7 @@ public class CheckoutTest {
     private static CartPage cartPage;
     private static CheckoutPage checkoutPage;
 
-    //private static WebDriverWait wait;
+
     @BeforeAll
     public static void setUp() {
         System.setProperty("webdriver.chrome.driver", "drivers\\yandexdriver.exe");
@@ -51,7 +51,6 @@ public class CheckoutTest {
         homePage = new HomePage(driver);
         cartPage = new CartPage(driver);
         checkoutPage = new CheckoutPage(driver);
-        //wait = new WebDriverWait(driver, Duration.ofSeconds(6));
     }
 
     @ParameterizedTest
